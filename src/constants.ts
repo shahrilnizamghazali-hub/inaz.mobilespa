@@ -13,11 +13,11 @@ export interface ServiceCategory {
 
 export const SERVICES: Record<string, ServiceCategory> = {
   massage: {
-    title: "Massage",
+    title: "Therapeutic Massage",
     items: [
-      { name: "Signature Inaz (80 mins)", price: "RM 180", description: "65 mins body + 15 mins face" },
-      { name: "Signature Inaz (110 mins)", price: "RM 220", description: "95 mins body + 15 mins face" },
-      { name: "Signature Inaz (140 mins)", price: "RM 260", description: "125 mins body + 15 mins face" },
+      { name: "Signature Serene (80 mins)", price: "RM 180", description: "65 mins body + 15 mins face" },
+      { name: "Signature Serene (110 mins)", price: "RM 220", description: "95 mins body + 15 mins face" },
+      { name: "Signature Serene (140 mins)", price: "RM 260", description: "125 mins body + 15 mins face" },
       { name: "Foot Reflexology (60 mins)", price: "RM 168", description: "20 mins head & shoulders" },
       { name: "Foot Reflexology (90 mins)", price: "RM 218", description: "30 mins head & shoulders" },
       { name: "Back Massage (60 mins)", price: "RM 168" },
@@ -29,7 +29,7 @@ export const SERVICES: Record<string, ServiceCategory> = {
     note: "*Please prepare mattress / comforter to massage on the floor"
   },
   nailCare: {
-    title: "Nail Care",
+    title: "Professional Nail Care",
     items: [
       { name: "Manicure Express", price: "RM 55", description: "Cut, shape, buffing, vitamin" },
       { name: "Manicure Basic", price: "RM 65", description: "Cut, shape, cuticle trim, massage, vitamin" },
@@ -42,14 +42,14 @@ export const SERVICES: Record<string, ServiceCategory> = {
     ]
   },
   facial: {
-    title: "Facial",
+    title: "Advanced Facial Treatments",
     items: [
       { name: "Deep Facial", price: "RM 180", description: "Cleanse, scrub, extraction, face lifting, mask, toner, moisturiser" },
       { name: "Express Facial", price: "RM 150", description: "Cleanse, scrub, mask, toner, moisturiser" },
     ]
   },
   waxing: {
-    title: "Waxing",
+    title: "Gentle Waxing Services",
     items: [
       { name: "Back", price: "RM 195", description: "Full back, full arm, underarm" },
       { name: "The Limb-O", price: "RM 225", description: "Full leg, full arm, underarm" },
@@ -58,7 +58,7 @@ export const SERVICES: Record<string, ServiceCategory> = {
     ]
   },
   packages: {
-    title: "Special Packages",
+    title: "Exclusive Wellness Packages",
     items: [
       { name: "Body & Nails", price: "RM 350", duration: "2h 30m", description: "80 mins massage + Signature mani pedi" },
       { name: "Body & Facial", price: "RM 360", duration: "2h 30m", description: "80 mins massage + Deep facial" },

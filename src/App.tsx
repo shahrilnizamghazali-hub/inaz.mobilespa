@@ -20,7 +20,7 @@ import { SERVICES } from "./constants";
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const whatsappUrl = "https://wasap.my/60126396785/spakerumah";
+  const whatsappUrl = "https://wasap.my/60193368252/Hello%20Serene%20Leaf%20Spa,%20I%20would%20like%20to%20book%20a%20mobile%20spa%20session.%20Could%20you%20please%20assist%20me?";
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -40,7 +40,7 @@ export default function App() {
               <div className="w-10 h-10 flex items-center justify-center bg-[#D4A373]/10 rounded-xl">
                 <Flower2 className="w-6 h-6 text-[#D4A373]" />
               </div>
-              <span className="font-serif text-2xl font-bold tracking-widest text-[#1A2E35]">I N A Z</span>
+              <span className="font-serif text-2xl font-bold tracking-widest text-[#1A2E35]">S E R E N E</span>
             </div>
 
             {/* Desktop Nav */}
@@ -331,12 +331,12 @@ export default function App() {
           
           <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-left">
-              <p className="text-sm text-gray-400">SSM: 002835396-P</p>
-              <p className="text-sm text-gray-400">© 2026 INAZ Mobile Spa. All rights reserved.</p>
+              <p className="text-sm text-gray-400">SSM: 00283XXXX-P</p>
+              <p className="text-sm text-gray-400">© 2026 Serene Leaf Spa. All rights reserved.</p>
             </div>
             <div className="flex gap-6">
               <a 
-                href="https://www.instagram.com/inaz.mobilespa/" 
+                href="https://www.instagram.com/sereneleafspa/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#D4A373] transition-colors"
